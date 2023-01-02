@@ -1,2 +1,2 @@
-# MKS_Solutions
-Landing page for the organization
+# InfoLytic Lab
+Landing page for the organisation
