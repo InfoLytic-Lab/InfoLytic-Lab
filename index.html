@@ -15,6 +15,44 @@
       defer
     ></script>
     <style id="custom__styles">
+
+     /* set the container to display as a grid */
+     .card-container {
+  display: flex; /* use flex layout */
+  flex-wrap: wrap; /* allow items to wrap to the next line */
+  justify-content: center; /* center items horizontally */
+}
+
+.card {
+  width: 300px;
+  height: 150px;
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 5px #ccc;
+  margin: 10px;
+  overflow: hidden;
+  flex: 1 0 300px; /* set flex-basis to 300px */
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.card img {
+  width: 100%;
+  height: 60%;
+}
+
+.card-content {
+  padding: 20px;
+}
+@media screen and (max-width: 768px) {
+    .card {
+        width: 250px;
+        height: 130px !important;
+        flex: 1 0 250px;
+    }
+}
+
+
+
       .project-iframe {
         display: block;
         position: fixed;
@@ -2488,14 +2526,14 @@
                       <img
                         width="370"
                         height="250"
-                        src="./assests/undraw_Website_builder_re_ii6e.png"
+                        src="./assests/undraw_Complete_design_re_h75h.png"
                         class="attachment-large size-large wp-image-2128"
                         alt=""
                         loading="lazy"
                         srcset="
-						./assests/undraw_Website_builder_re_ii6e.png         370w,
-						./assests/undraw_Website_builder_re_ii6e.png 300w,
-						./assests/undraw_Website_builder_re_ii6e.png 266w
+						./assests/undraw_Complete_design_re_h75h.png         370w,
+						./assests/undraw_Complete_design_re_h75h.png 300w,
+						./assests/undraw_Complete_design_re_h75h.png 266w
                         "
                         sizes="(max-width: 370px) 100vw, 370px"
                       />
@@ -2679,10 +2717,10 @@
                         data-widget_type="heading.default"
                       >
                         <div class="elementor-widget-container">
-                          <h2
+                          <h2 style="font-size: 45px;"
                             class="elementor-heading-title elementor-size-default"
                           >
-                            Our Projects
+                            Our Sample Projects
                           </h2>
                         </div>
                       </div>
@@ -2695,179 +2733,9 @@
                 data-id="b45be1a"
                 data-element_type="section"
               >
-                <div class="elementor-container elementor-column-gap-default">
-                  <div
-                    class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-ea49c27"
-                    data-id="ea49c27"
-                    data-element_type="column"
-                  >
-                    <div
-                      class="elementor-widget-wrap elementor-element-populated"
-                    >
-                      <div
-                        class="elementor-element elementor-element-2d0ea4d elementor-widget elementor-widget-Ultimate_Post_Carousel"
-                        data-id="2d0ea4d"
-                        data-element_type="widget"
-                        data-widget_type="Ultimate_Post_Carousel.default"
-                      >
-                        <div class="elementor-widget-container">
-                          <div
-                            class="sldier-content-area ultimate__post__content__layout-3"
-                          >
-                            <div
-                              class="ultimate-carousel-activation"
-                              data-settings='{"slideid":2564,"arrows":false,"arrow_prev_txt":null,"arrow_next_txt":null,"dots":false,"autoplay":false,"autoplay_speed":3000,"animation_speed":300,"pause_on_hover":true,"center_mode":false,"center_padding":0,"rows":2,"fade":false,"focusonselect":false,"vertical":false,"rtl":false,"infinite":true,"display_columns":3,"scroll_columns":1,"tablet_width":750,"tablet_display_columns":2,"tablet_scroll_columns":1,"mobile_width":480,"mobile_display_columns":1,"mobile_scroll_columns":1}'
-                            >
-                              <div
-                                class="ultimate__single__post ultimate__post__layout__3"
-                                data-display-project="https://spacinfo.netlify.app/"
-                                style="cursor: pointer"
-                              >
-                                <div
-                                  class="post__thumb"
-                                  style="pointer-events: none"
-                                >
-                                  <img
-                                    src="./assests/Project-SS/spaceinfo.png"
-                                    alt="How To Improve IT knowledge"
-                                  />
-                                </div>
-
-                                <div
-                                  class="post__content"
-                                  style="pointer-events: none"
-                                >
-                                  <div class="post__inner">
-                                    <h3 class="post__title">
-                                      <a href="#"> Spacinfo </a>
-                                    </h3>
-                                    <div class="post__btn">
-                                      <a
-                                        class="readmore__btn"
-                                        href="https://spacinfo.netlify.app/"
-                                      >
-                                        <i
-                                          class="readmore_icon_right fa fa-arrow-right"
-                                        ></i>
-                                      </a>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-
-                              <div
-                                class="ultimate__single__post ultimate__post__layout__3"
-                                data-display-project="https://barnakharpublisher.com/"
-                                style="cursor: pointer"
-                              >
-                                <div
-                                  class="post__thumb"
-                                  style="pointer-events: none"
-                                >
-                                  <img
-                                    src="./assests/Project-SS/barnakhar.png"
-                                    alt="How To Improve IT knowledge"
-                                  />
-                                </div>
-
-                                <div
-                                  class="post__content"
-                                  style="pointer-events: none"
-                                >
-                                  <div class="post__inner">
-                                    <h3 class="post__title">
-                                      <a href="#">Barnakhar Publisher</a>
-                                    </h3>
-                                    <div class="post__btn">
-                                      <a
-                                        class="readmore__btn"
-                                        href="https://spacinfo.netlify.app/"
-                                      >
-                                        <i
-                                          class="readmore_icon_right fa fa-arrow-right"
-                                        ></i>
-                                      </a>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-
-                              <div
-                                class="ultimate__single__post ultimate__post__layout__3"
-                                data-display-project="https://tuhinbar.github.io/Tic_Tac_Toe/"
-                                style="cursor: pointer"
-                              >
-                                <div
-                                  class="post__thumb"
-                                  style="pointer-events: none"
-                                >
-                                  <img
-                                    src="./assests/Project-SS/tic-tac-toe.png"
-                                    alt="How To Improve IT knowledge"
-                                  />
-                                </div>
-
-                                <div
-                                  class="post__content"
-                                  style="pointer-events: none"
-                                >
-                                  <div class="post__inner">
-                                    <h3 class="post__title">
-                                      <a href="#"> TIC TAC TOE - UI/UX </a>
-                                    </h3>
-                                    <div class="post__btn">
-                                      <a
-                                        class="readmore__btn"
-                                        href="https://tuhinbar.github.io/Tic_Tac_Toe/"
-                                      >
-                                        <i
-                                          class="readmore_icon_right fa fa-arrow-right"
-                                        ></i>
-                                      </a>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-
-                              <div
-                                class="ultimate__single__post ultimate__post__layout__3"
-                                data-display-project="https://redwineentertainment.com/"
-                                style="cursor: pointer"
-                              >
-                                <div
-                                  class="post__thumb"
-                                  style="pointer-events: none"
-                                >
-                                  <img
-                                    src="./assests/Project-SS/redwine.png"
-                                    alt="How To Improve IT knowledge"
-                                  />
-                                </div>
-
-                                <div
-                                  class="post__content"
-                                  style="pointer-events: none"
-                                >
-                                  <div class="post__inner">
-                                    <h3 class="post__title">
-                                      <a href="#"> Redwine Entertainment </a>
-                                    </h3>
-                                    <div class="post__btn">
-                                      <a
-                                        class="readmore__btn"
-                                        href="https://redwineentertainment.com/"
-                                      >
-                                        <i
-                                          class="readmore_icon_right fa fa-arrow-right"
-                                        ></i>
-                                      </a>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-
-                              <div
-                                class="ultimate__single__post ultimate__post__layout__3"
+              <div class="card-container">
+                <div
+                                class="card ultimate__single__post ultimate__post__layout__3"
                                 data-display-project="https://projectfy.onrender.com/"
                                 style="cursor: pointer"
                               >
@@ -2894,6 +2762,7 @@
                                         class="readmore__btn"
                                         href="https://projectfy.onrender.com/"
                                       >
+                                      <p style="color: white;">New Age Project management platform</p>
                                         <i
                                           class="readmore_icon_right fa fa-arrow-right"
                                         ></i>
@@ -2902,50 +2771,273 @@
                                   </div>
                                 </div>
                               </div>
+                              
+                              <div
+                              class="card ultimate__single__post ultimate__post__layout__3"
+                              data-display-project="https://spacinfo.netlify.app/"
+                              style="cursor: pointer"
+                            >
+                              <div
+                                class="post__thumb"
+                                style="pointer-events: none"
+                              >
+                                <img
+                                  src="./assests/Project-SS/spaceinfo.png"
+                                  alt="spaceinfo"
+                                />
+                              </div>
 
                               <div
-                                class="ultimate__single__post ultimate__post__layout__3"
-                                data-display-project="https://miraz-mondal.github.io/Sharadiya/"
-                                style="cursor: pointer"
+                                class="post__content"
+                                style="pointer-events: none"
                               >
-                                <div
-                                  class="post__thumb"
-                                  style="pointer-events: none"
-                                >
-                                  <img
-                                    src="./assests/Project-SS/Sharadiya.png"
-                                    alt="How To Improve IT knowledge"
-                                  />
-                                </div>
-
-                                <div
-                                  class="post__content"
-                                  style="pointer-events: none"
-                                >
-                                  <div class="post__inner">
-                                    <h3 class="post__title">
-                                      <a href="#"> Sharadiya </a>
-                                    </h3>
-                                    <div class="post__btn">
-                                      <a
-                                        class="readmore__btn"
-                                        href="https://miraz-mondal.github.io/Sharadiya/"
-                                      >
-                                        <i
-                                          class="readmore_icon_right fa fa-arrow-right"
-                                        ></i>
-                                      </a>
-                                    </div>
+                                <div class="post__inner">
+                                  <h3 class="post__title">
+                                    <a href="#"> Spacinfo </a>
+                                  </h3>
+                                  <div class="post__btn">
+                                    <a
+                                      class="readmore__btn"
+                                      href="https://spacinfo.netlify.app/"
+                                    >
+                                    <p style="color: white;">New info of space everyday!</p>
+                                      <i
+                                        class="readmore_icon_right fa fa-arrow-right"
+                                      ></i>
+                                    </a>
                                   </div>
                                 </div>
                               </div>
                             </div>
+                            <div
+                            class="card ultimate__single__post ultimate__post__layout__3"
+                            data-display-project="https://barnakharpublisher.com/"
+                            style="cursor: pointer"
+                          >
+                            <div
+                              class="post__thumb"
+                              style="pointer-events: none"
+                            >
+                              <img
+                                src="./assests/Project-SS/barnakhar.png"
+                                alt="Barnakhar Publishers"
+                              />
+                            </div>
+
+                            <div
+                              class="post__content"
+                              style="pointer-events: none"
+                            >
+                              <div class="post__inner">
+                                <h3 class="post__title">
+                                  <a href="#">Barnakhar Publisher</a>
+                                </h3>
+                                <div class="post__btn">
+                                  <a
+                                    class="readmore__btn"
+                                    href="https://spacinfo.netlify.app/"
+                                  >
+                                  <p style="color: white;">Online bookstore</p>
+                                    <i
+                                      class="readmore_icon_right fa fa-arrow-right"
+                                    ></i>
+                                  </a>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div
+                          class="card ultimate__single__post ultimate__post__layout__3"
+                          data-display-project="https://tuhinbar.github.io/Tic_Tac_Toe/"
+                          style="cursor: pointer"
+                        >
+                          <div
+                            class="post__thumb"
+                            style="pointer-events: none"
+                          >
+                            <img
+                              src="./assests/Project-SS/tic-tac-toe.png"
+                              alt="TIC-TAC-TOE"
+                            />
+                          </div>
+
+                          <div
+                            class="post__content"
+                            style="pointer-events: none"
+                          >
+                            <div class="post__inner">
+                              <h3 class="post__title">
+                                <a href="#"> TIC TAC TOE - UI/UX </a>
+                              </h3>
+                              <div class="post__btn">
+                                <a
+                                  class="readmore__btn"
+                                  href="https://tuhinbar.github.io/Tic_Tac_Toe/"
+                                >
+                                <p style="color: white;">Premium UX for new gen web!</p>
+                                  <i
+                                    class="readmore_icon_right fa fa-arrow-right"
+                                  ></i>
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                        class="card ultimate__single__post ultimate__post__layout__3"
+                        data-display-project="https://redwineentertainment.com/"
+                        style="cursor: pointer"
+                      >
+                        <div
+                          class="post__thumb"
+                          style="pointer-events: none"
+                        >
+                          <img
+                            src="./assests/Project-SS/redwine.png"
+                            alt="Redwine Entertainment"
+                          />
+                        </div>
+
+                        <div
+                          class="post__content"
+                          style="pointer-events: none"
+                        >
+                          <div class="post__inner">
+                            <h3 class="post__title">
+                              <a href="#"> Redwine Entertainment </a>
+                            </h3>
+                            <div class="post__btn">
+                              <a
+                                class="readmore__btn"
+                                href="https://redwineentertainment.com/"
+                              >
+                              <p style="color: white;">Event management site!</p>
+                                <i
+                                  class="readmore_icon_right fa fa-arrow-right"
+                                ></i>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                      class="card ultimate__single__post ultimate__post__layout__3"
+                      data-display-project="https://miraz-mondal.github.io/Sharadiya/"
+                      style="cursor: pointer"
+                    >
+                      <div
+                        class="post__thumb"
+                        style="pointer-events: none"
+                      >
+                        <img
+                          src="./assests/Project-SS/Sharadiya.png"
+                          alt="SHARADIYA"
+                        />
+                      </div>
+
+                      <div
+                        class="post__content"
+                        style="pointer-events: none"
+                      >
+                        <div class="post__inner">
+                          <h3 class="post__title">
+                            <a href="#"> Sharadiya </a>
+                          </h3>
+                          <div class="post__btn">
+                            <a
+                              class="readmore__btn"
+                              href="https://miraz-mondal.github.io/Sharadiya/"
+                            >
+                            <p style="color: #fff;">Online Durga Puja Experience</p>
+                              <i
+                                class="readmore_icon_right fa fa-arrow-right"
+                              ></i>
+                            </a>
                           </div>
                         </div>
                       </div>
                     </div>
-                  </div>
-                </div>
+                    <div
+                        class="card ultimate__single__post ultimate__post__layout__3"
+                        data-display-project="https://to-notesapp.netlify.app/"
+                        style="cursor: pointer"
+                      >
+                        <div
+                          class="post__thumb"
+                          style="pointer-events: none"
+                        >
+                          <img
+                            src="./assests/Project-SS/To-Note.png"
+                            alt="Redwine Entertainment"
+                          />
+                        </div>
+
+                        <div
+                          class="post__content"
+                          style="pointer-events: none"
+                        >
+                          <div class="post__inner">
+                            <h3 class="post__title">
+                              <a href="#"> To-Notes </a>
+                            </h3>
+                            <div class="post__btn">
+                              <a
+                                class="readmore__btn"
+                                href="https://to-notesapp.netlify.app/"
+                              >
+                              <p style="color: white;">Responsive and functional To-Do</p>
+                                <i
+                                  class="readmore_icon_right fa fa-arrow-right"
+                                ></i>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="card ultimate__single__post ultimate__post__layout__3"
+                        data-display-project="https://tuhinbar.github.io/Chrome_Extension__CourseAPI/"
+                        style="cursor: pointer"
+                      >
+                        <div
+                          class="post__thumb"
+                          style="pointer-events: none"
+                        >
+                          <img
+                            src="./assests/Project-SS/Courses.png"
+                            alt="Redwine Entertainment"
+                          />
+                        </div>
+
+                        <div
+                          class="post__content"
+                          style="pointer-events: none"
+                        >
+                          <div class="post__inner">
+                            <h3 class="post__title">
+                              <a href="#"> Free Courses </a>
+                            </h3>
+                            <div class="post__btn">
+                              <a
+                                class="readmore__btn"
+                                href="https://tuhinbar.github.io/Chrome_Extension__CourseAPI/"
+                              >
+                              <p style="color: white;">Educational Courses for free</p>
+                                <i
+                                  class="readmore_icon_right fa fa-arrow-right"
+                                ></i>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      
+                
+                <!-- add more cards as needed -->
+              </div>
+              
+              
+                
               </section>
             </div>
           </div>
